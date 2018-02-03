@@ -1,4 +1,11 @@
-.container {
-  margin-right: auto;
-  margin-left: auto;
+.visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+}
+
+.button {
+  background-color: #68b738;
 }
