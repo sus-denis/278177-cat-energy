@@ -2,6 +2,10 @@
   background-color: #ffffff;
 }
 
+.programs__items {
+  @include list-reset;
+}
+
 .programs__item {
   background-color: #f2f2f2;
 }

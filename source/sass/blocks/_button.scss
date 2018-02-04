@@ -1,6 +1,16 @@
 .button {
-  display: inline-block;
-  text-align: center;
-  border: none;
-  outline: none;
+  background-color: #68b738;
+  font-family: Oswald, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+  color: #ffffff;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+@include tablet-up {
+  .button {
+    font-size: 20px;
+    line-height: 20px;
+  }
 }

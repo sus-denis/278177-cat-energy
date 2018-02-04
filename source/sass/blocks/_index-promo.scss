@@ -1,47 +1,33 @@
 .index-promo {
   background-color: #68b738;
   font-family: Oswald, Arial, sans-serif;
+  color: #ffffff;
 }
 
 .index-promo__title {
   font-size: 36px;
   font-weight: 400;
   line-height: 36px;
-  color: #ffffff;
 }
 
 .index-promo__slogan {
   font-size: 14px;
   font-weight: 400;
   line-height: 14px;
-  color: #ffffff;
 }
 
 @include tablet-up {
+  .index-promo {
+    color: #111111;
+  }
+
   .index-promo__title {
     font-size: 60px;
     line-height: 60px;
-    color: #000000;
   }
-}
 
-.index-promo__button {
-  padding-top: 11px;
-  padding-right: 18px;
-  padding-bottom: 11px;
-  padding-left: 18px;
-  text-transform: uppercase;
-  text-decoration: none;
-  background-color: #68b738;
-  font-family: Oswald, Arial, sans-serif;
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 18px;
-
-  @include tablet-up {
-    padding-top: 11px;
-    padding-right: 18px;
-    padding-bottom: 11px;
-    padding-left: 18px;
+  .index-promo__slogan {
+    font-size: 20px;
+    line-height: 20px;
   }
 }
