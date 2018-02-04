@@ -1,0 +1,7 @@
+.catalog {
+  background-color: #ffffff;
+}
+
+.catalog__items {
+  @include list-reset;
+}
