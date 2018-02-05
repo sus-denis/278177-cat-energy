@@ -1,8 +1,8 @@
-.features {
-  display: flex;
+.page-catalog {
+  background-color: #ffffff;
 }
 
-.features__title {
+.page-catalog__title {
   font-family: "Oswald", "Arial", sans-serif;
   font-size: 36px;
   line-height: 60px;
@@ -10,10 +10,8 @@
   color: #111111;
 }
 
-.features__items {
-  @include list-reset;
-}
-
 @include tablet-up {
-  font-size: 60px;
+  .page-catalog__title {
+    font-size: 60px;
+  }
 }

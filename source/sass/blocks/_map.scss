@@ -2,12 +2,16 @@
   background-color: #f2f2f2;
 }
 
-.map__info {}
+.map__info {
+  display: flex;
+}
 
 .map__partners {
-  font-family: Oswald, Arial, sans-serif;
+  font-family: "Oswald", "Arial", sans-serif;
   font-size: 16px;
   line-height: 20px;
+  font-weight: 400;
+  color: #111111;
   text-transform: uppercase;
 }
 
@@ -20,7 +24,6 @@
   height: 200px;
   background-color: #fdf7f0;
 }
-
 
 @include tablet-up {
   .map__partners {

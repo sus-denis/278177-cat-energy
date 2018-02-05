@@ -1,24 +1,28 @@
-.program {}
+.program {
+  display: flex;
+}
 
 .program__title {
-  font-family: Oswald, Arial, sans-serif;
+  font-family: "Oswald", "Arial", sans-serif;
   font-size: 24px;
   line-height: 37.02px;
+  font-weight: 400;
   color: #111111;
 }
 
 
 .program__link {
-  font-family: Oswald, Arial, sans-serif;
+  font-family: "Oswald", "Arial", sans-serif;
   font-size: 16px;
   line-height: 16px;
+  font-weight: 400;
   color: #111111;
   text-decoration: none;
   text-transform: uppercase;
 
-    &:active {
-      color: rgba(17,17,17,0.3);
-    }
+  &:active {
+    color: rgba(17, 17, 17, 0.3);
+  }
 }
 
 @include tablet-up {
