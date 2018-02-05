@@ -1,0 +1,11 @@
+.card__title {
+  font-family: "Oswald", "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #111111;
+}
+
+@include tablet_up {
+  font-size: 20px;
+}

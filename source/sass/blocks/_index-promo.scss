@@ -17,6 +17,11 @@
   line-height: 14px;
 }
 
+.index-promo__button {
+  font-size: 14px;
+  line-height: 18px;
+}
+
 @include tablet-up {
   .index-promo {
     color: #111111;
