@@ -1,0 +1,53 @@
+.stats {
+  font-family: Oswald, Arial, sans-serif;
+  color: #111111;
+}
+
+.stats__col-weight {
+  font-size: 30px;
+  line-height: 37.02px;
+}
+
+.stats__col-time {
+  font-size: 24px;
+  line-height: 24px;
+}
+
+.stats__upcase {
+  font-family: Arial, sans-serif;
+  font-size: 12px;
+  line-height: 12px;
+  color: #444444;
+}
+
+.stats__row-result {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.stats__slider-button {
+  font-size: 16px;
+  line-height: 20px;
+}
+
+
+@include tablet-up {
+  .stats__col-weight,
+  .stats__col-time {
+    font-size: 30px;
+    line-height: 37.02px;
+  }
+
+  .stats__upcase {
+    font-size: 14px;
+    line-height: 14px;
+  }
+
+  .stats__row-result {
+    font-size: 20px;
+  }
+
+  .stats__slider-button {
+    font-size: 20px;
+  }
+}
