@@ -1,0 +1,27 @@
+.field {
+  font-family: "Oswald", "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 400;
+}
+
+.field__label {
+  color: #222222;
+}
+
+.field__input {
+  color: #444444;
+}
+
+@include tablet-up {
+  .field {
+    font-size: 20px;
+    line-height: 20px;
+  }
+}
+
+@include desktop-up {
+  .field {
+    line-height: 30px;
+  }
+}

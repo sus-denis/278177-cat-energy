@@ -1,0 +1,32 @@
+.page-form {
+  background-color: #ffffff;
+}
+
+.page-form__title {
+  font-family: "Oswald", "Arial", sans-serif;
+  font-size: 36px;
+  line-height: 60px;
+  font-weight: 400;
+  color: #111111;
+}
+
+.page-form__content {
+  font-family: "Oswald", "Arial", sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 400;
+  color: #111111;
+  text-transform: uppercase;
+}
+
+@include tablet-up {
+  .page-form__title {
+    font-size: 60px;
+    line-height: 60px;
+  }
+
+  .page-form__content {
+    font-size: 20px;
+    line-height: 30px;
+  }
+}

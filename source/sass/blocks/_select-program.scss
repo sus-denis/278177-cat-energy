@@ -1,0 +1,9 @@
+.select-program__notice {
+  line-height: 16px;
+}
+
+@include tablet-up {
+  .select-program__notice {
+    font-size: 16px;
+  }
+}
