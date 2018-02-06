@@ -1,0 +1,17 @@
+.details {
+  @include list-reset;
+}
+
+.details__key,
+.details__value {
+  font-family: "Arial", sans-serif;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+@include tablet-up {
+  .details__key,
+  .details__value {
+    font-size: 16px;
+  }
+}

@@ -1,0 +1,15 @@
+.site-list {
+  @include list-reset;
+}
+
+.site-list__link {
+  color: #111111;
+
+  &:hover {
+    color: rgba(17, 17, 17, 0.6);
+  }
+
+  &:active {
+    color: rgba(17, 17, 17, 0.3);
+  }
+}

@@ -1,0 +1,22 @@
+.extras__title {
+  font-family: "Oswald", "Arial", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #111111;
+}
+
+.extras__details {
+  font-size: 12px;
+  line-height: 16px;
+}
+
+@include tablet-up {
+  .extras__title {
+    font-size: 20px;
+  }
+
+  .extras__details {
+    font-size: 16px;
+  }
+}

@@ -1,0 +1,23 @@
+.additionals {
+  display: flex;
+  flex-direction: column;
+}
+
+.additionals__title {
+  font-family: "Oswald", "Arial", sans-serif;
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #111111;
+}
+
+.additionals__items {
+  @include list-reset;
+}
+
+@include tablet-up {
+  .additionals__title {
+    font-size: 36px;
+    line-height: 36px;
+  }
+}

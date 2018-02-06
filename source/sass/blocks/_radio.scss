@@ -1,0 +1,18 @@
+.radio {
+  font-family: "Oswald", "Arial", sans-serif;
+  font-weight: 400;
+}
+
+.radio__label {
+  font-size: 16px;
+  line-height: 18px;
+  color: #222222;
+  text-transform: uppercase;
+}
+
+@include tablet-up {
+  .radio__label {
+    font-size: 20px;
+    line-height: 20px;
+  }
+}

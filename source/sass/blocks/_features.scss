@@ -1,0 +1,19 @@
+.features {
+  display: flex;
+}
+
+.features__title {
+  font-family: "Oswald", "Arial", sans-serif;
+  font-size: 36px;
+  line-height: 60px;
+  font-weight: 400;
+  color: #111111;
+}
+
+.features__items {
+  @include list-reset;
+}
+
+@include tablet-up {
+  font-size: 60px;
+}
