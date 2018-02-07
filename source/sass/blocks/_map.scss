@@ -1,4 +1,5 @@
 .map {
+  position: relative;
   background-color: #f2f2f2;
 }
 
@@ -34,5 +35,14 @@
   .map__address {
     font-size: 16px;
     line-height: 20px;
+  }
+}
+
+@include desktop-up {
+  .map__info {
+    position: absolute;
+    left: 110px;
+    top: 50%;
+    transform: translateY(-50%);
   }
 }
