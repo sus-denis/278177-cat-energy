@@ -3,3 +3,17 @@
   flex-direction: column;
   background-color: #ffffff;
 }
+
+.page-header__logo {
+  display: flex;
+  align-items: center;
+  min-width: 320px;
+}
+
+@include tablet-up {
+  .page-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
