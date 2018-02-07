@@ -1,9 +1,14 @@
 .page-footer {
+  display: flex;
+  flex-direction: column;
   background-color: #f2f2f2;
   padding-right: 20px;
   padding-left: 20px;
 }
 
-.page-footer__logo {
-  background-color: #ffffff;
+@include tablet-up {
+  .page-footer{
+    flex-direction: row;
+    justify-content: space-between;
+  }
 }
