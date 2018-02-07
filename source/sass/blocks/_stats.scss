@@ -1,4 +1,6 @@
 .stats {
+  display: flex;
+  flex-wrap: wrap;
   font-family: "Oswald", "Arial", sans-serif;
   font-weight: 400;
   color: #111111;
@@ -26,13 +28,11 @@
   line-height: 20px;
 }
 
-.stats__slider-button {
-  font-size: 16px;
-  line-height: 20px;
-}
-
-
 @include tablet-up {
+  .stats {
+    flex-direction: row;
+  }
+
   .stats__col-weight,
   .stats__col-time {
     font-size: 30px;
@@ -45,10 +45,6 @@
   }
 
   .stats__row-result {
-    font-size: 20px;
-  }
-
-  .stats__slider-button {
     font-size: 20px;
   }
 }
