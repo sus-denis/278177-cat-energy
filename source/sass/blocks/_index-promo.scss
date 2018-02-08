@@ -1,4 +1,5 @@
 .index-promo {
+  min-width: 280px;
   background-color: #68b738;
   font-family: "Oswald", "Arial", sans-serif;
   font-weight: 400;
@@ -25,6 +26,10 @@
 
 @include tablet-up {
   .index-promo {
+    display: flex;
+    flex-direction: column;
+    width: 528px;
+    background-color: #ffffff;
     color: #111111;
   }
 
@@ -37,10 +42,19 @@
     font-size: 20px;
     line-height: 20px;
   }
+
+  .index-promo__image {
+    order: 2;
+  }
 }
 
 @include desktop-up {
   .index-promo {
-  background-color: #ffffff;
+    position: relative;
+  }
+
+  .index-promo__image {
+    position: absolute;
+    top: 50%;
   }
 }
