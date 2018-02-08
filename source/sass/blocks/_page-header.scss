@@ -1,19 +1,16 @@
 .page-header {
-  display: flex;
-  flex-direction: column;
   background-color: #ffffff;
 }
 
 .page-header__logo {
-  display: flex;
-  align-items: center;
-  min-width: 320px;
+  width: 320px;
+  height: 66px;
+  text-decoration: none;
 }
 
 @include tablet-up {
   .page-header {
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
   }
 }

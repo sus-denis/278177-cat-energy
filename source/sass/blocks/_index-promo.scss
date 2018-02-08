@@ -6,6 +6,7 @@
 }
 
 .index-promo__title {
+  margin-bottom: 0;
   font-size: 36px;
   font-weight: 400;
   line-height: 36px;
@@ -35,5 +36,11 @@
   .index-promo__slogan {
     font-size: 20px;
     line-height: 20px;
+  }
+}
+
+@include desktop-up {
+  .index-promo {
+  background-color: #ffffff;
   }
 }

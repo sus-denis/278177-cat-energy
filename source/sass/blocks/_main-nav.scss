@@ -1,9 +1,17 @@
 .main-nav {
-  font-family: "Oswald", "Arial", sans-serif;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 20px;
-  color: #111111;
-  text-decoration: none;
-  text-transform: uppercase;
+  position: relative;
+}
+
+.main-nav__toggle {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  top: -21px;
+  right: 20px;
+}
+
+@include tablet-up {
+  .main-nav__toggle {
+    display: none;
+  }
 }
