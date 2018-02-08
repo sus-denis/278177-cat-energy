@@ -15,5 +15,7 @@
 }
 
 @include tablet-up {
-  font-size: 60px;
+  .features__title {
+    font-size: 60px;
+  }
 }

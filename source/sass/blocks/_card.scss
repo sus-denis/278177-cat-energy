@@ -7,5 +7,7 @@
 }
 
 @include tablet_up {
-  font-size: 20px;
+  .card__title {
+    font-size: 20px;
+  }
 }
