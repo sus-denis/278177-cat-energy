@@ -1,7 +1,3 @@
-.features {
-  display: flex;
-}
-
 .features__title {
   font-family: "Oswald", "Arial", sans-serif;
   font-size: 36px;
@@ -17,5 +13,25 @@
 @include tablet-up {
   .features__title {
     font-size: 60px;
+  }
+
+  .features__items {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .features__item {
+    flex-basis: 50%;
+  }
+}
+
+@include desktop-up {
+  .features__items {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+
+  .features__item {
+    flex-basis: 25%;
   }
 }
