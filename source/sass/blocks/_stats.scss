@@ -1,16 +1,15 @@
 .stats {
-  display: flex;
-  flex-wrap: wrap;
   font-family: "Oswald", "Arial", sans-serif;
   font-weight: 400;
   color: #111111;
 }
 
-.stats__col-weight {
-  font-size: 30px;
-  line-height: 37.02px;
+.stats__wrapper {
+  display: flex;
+  flex-basis: 50%;
 }
 
+.stats__col-weight,
 .stats__col-time {
   font-size: 24px;
   line-height: 24px;
@@ -30,9 +29,13 @@
 
 @include tablet-up {
   .stats {
-    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
   }
 
+  .stats__wrapper {
+    flex-basis: 366px;
+  }
   .stats__col-weight,
   .stats__col-time {
     font-size: 30px;
@@ -45,6 +48,13 @@
   }
 
   .stats__row-result {
+    flex-basis: 366px;
     font-size: 20px;
+  }
+}
+
+@include desktop-up {
+  .stats {
+    display: block;
   }
 }

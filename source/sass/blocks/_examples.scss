@@ -1,6 +1,5 @@
 .examples {
-  display: flex;
-  flex-direction: column;
+  width: 280px;
   background-color: #f2f2f2;
 }
 
@@ -16,8 +15,12 @@
   font-size: 14px;
 }
 
-
 @include tablet-up {
+  .examples {
+    width: 708px;
+    background-color: #ffffff;
+  }
+
   .examples__title {
     font-size: 60px;
   }
@@ -30,6 +33,12 @@
 
 @include desktop-up {
   .examples {
-    flex-direction: row;
+    display: flex;
+    width: 1220px;
+  }
+
+  .examples__wrapper,
+  .examples__slider {
+    flex-basis: 610px;
   }
 }
