@@ -20,6 +20,8 @@
 }
 
 .index-promo__button {
+  width: 280px;
+  height: 48px;
   font-size: 14px;
   line-height: 18px;
 }
@@ -43,18 +45,8 @@
     line-height: 20px;
   }
 
-  .index-promo__image {
-    order: 2;
-  }
-}
-
-@include desktop-up {
-  .index-promo {
-    position: relative;
-  }
-
-  .index-promo__image {
-    position: absolute;
-    top: 50%;
+  .index-promo__button {
+    width: 245px;
+    height: 52px;
   }
 }
