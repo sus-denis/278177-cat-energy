@@ -17,7 +17,7 @@
 @include tablet-up {
   .features {
     width: 708px;
-}
+  }
 
   .features__title {
     font-size: 60px;
@@ -36,7 +36,8 @@
 @include desktop-up {
   .features {
     width: 1220px;
-}
+  }
+
   .features__items {
     display: flex;
     flex-wrap: nowrap;

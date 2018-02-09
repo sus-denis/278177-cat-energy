@@ -4,12 +4,13 @@
 }
 
 @include tablet-up {
-  .page-footer{
+  .page-footer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     width: 708px;
   }
+
   .page-footer__logo,
   .page-footer__social,
   .page-footer__author {
