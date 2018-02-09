@@ -1,3 +1,28 @@
 .catalog__items {
   @include list-reset;
 }
+
+@include tablet-up {
+  .catalog {
+    width: 708px;
+  }
+
+  .catalog__items {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .catalog__item {
+    flex-basis: 50%;
+  }
+}
+
+@include desktop-up {
+  .catalog {
+    width: 1220px;
+  }
+
+  .catalog__item {
+    flex-basis: 25%;
+  }
+}

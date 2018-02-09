@@ -8,4 +8,27 @@
     font-size: 36px;
     line-height: 36px;
   }
+
+  .fieldset__wrapper_checkbox {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+@include desktop-up {
+  .fieldset__wrapper_pet-info {
+    display: flex;
+  }
+
+  .fieldset_pet-info {
+    flex-basis: 50%;
+  }
+
+  .fieldset__wrapper_owner-info {
+    display: flex;
+  }
+
+  .fieldset__wrapper_checkbox {
+    flex-wrap: nowrap;
+  }
 }

@@ -1,5 +1,9 @@
 .select-program__notice {
-  line-height: 16px;
+  font-family: "Arial", sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+  font-style: normal;
+  color: #444444;
 }
 
 @include tablet-up {

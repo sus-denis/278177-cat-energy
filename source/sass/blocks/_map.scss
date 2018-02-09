@@ -1,9 +1,11 @@
 .map {
-  background-color: #f2f2f2;
+  position: relative;
 }
 
 .map__info {
   display: flex;
+  width: 280px;
+  background-color: #ffffff;
 }
 
 .map__partners {
@@ -26,6 +28,10 @@
 }
 
 @include tablet-up {
+  .map__info {
+    width: 708px;
+  }
+
   .map__partners {
     font-size: 20px;
     line-height: 25px;
@@ -34,5 +40,15 @@
   .map__address {
     font-size: 16px;
     line-height: 20px;
+  }
+}
+
+@include desktop-up {
+  .map__info {
+    position: absolute;
+    width: 570px;
+    left: 110px;
+    top: 50%;
+    transform: translateY(-50%);
   }
 }

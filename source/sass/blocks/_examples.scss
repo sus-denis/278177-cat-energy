@@ -1,4 +1,5 @@
 .examples {
+  width: 280px;
   background-color: #f2f2f2;
 }
 
@@ -14,8 +15,12 @@
   font-size: 14px;
 }
 
-
 @include tablet-up {
+  .examples {
+    width: 708px;
+    background-color: #ffffff;
+  }
+
   .examples__title {
     font-size: 60px;
   }
@@ -23,5 +28,17 @@
   .examples__description {
     font-size: 16px;
     line-height: 24px;
+  }
+}
+
+@include desktop-up {
+  .examples {
+    display: flex;
+    width: 1220px;
+  }
+
+  .examples__wrapper,
+  .examples__slider {
+    flex-basis: 610px;
   }
 }

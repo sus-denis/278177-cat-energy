@@ -1,5 +1,16 @@
 .page-header {
-  display: flex;
-  flex-direction: column;
   background-color: #ffffff;
+}
+
+.page-header__logo {
+  width: 320px;
+  height: 66px;
+  text-decoration: none;
+}
+
+@include tablet-up {
+  .page-header {
+    display: flex;
+    justify-content: space-between;
+  }
 }

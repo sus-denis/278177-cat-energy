@@ -1,5 +1,5 @@
 .features {
-  display: flex;
+  width: 280px;
 }
 
 .features__title {
@@ -15,5 +15,35 @@
 }
 
 @include tablet-up {
-  font-size: 60px;
+  .features {
+    width: 708px;
+  }
+
+  .features__title {
+    font-size: 60px;
+  }
+
+  .features__items {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .features__item {
+    flex-basis: 50%;
+  }
+}
+
+@include desktop-up {
+  .features {
+    width: 1220px;
+  }
+
+  .features__items {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+
+  .features__item {
+    flex-basis: 25%;
+  }
 }

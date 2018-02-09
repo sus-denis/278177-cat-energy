@@ -11,8 +11,18 @@
 }
 
 @include tablet-up {
+  .checkbox {
+    flex-basis: 50%;
+  }
+
   .checkbox__label {
     font-size: 20px;
     line-height: 20px;
+  }
+}
+
+@include desktop-up {
+  .checkbox {
+    flex-basis: 25%;
   }
 }

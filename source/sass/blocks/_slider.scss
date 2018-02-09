@@ -1,13 +1,16 @@
-.card__title {
+.slider {
   font-family: "Oswald", "Arial", sans-serif;
-  font-size: 16px;
-  line-height: 20px;
   font-weight: 400;
   color: #111111;
 }
 
-@include tablet_up {
-  .card__title {
+.slider__button {
+  font-size: 16px;
+  line-height: 20px;
+}
+
+@include tablet-up {
+  .slider__button {
     font-size: 20px;
   }
 }
