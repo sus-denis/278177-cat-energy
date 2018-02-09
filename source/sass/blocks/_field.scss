@@ -1,20 +1,23 @@
-.field {
-  font-family: "Oswald", "Arial", sans-serif;
-  font-size: 16px;
-  line-height: 18px;
-  font-weight: 400;
-}
-
 .field__label {
   color: #222222;
 }
 
 .field__input {
+  font-family: "Oswald", "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 400;
   color: #444444;
+  background-color: #ffffff;
 }
 
 @include tablet-up {
   .field {
+    font-size: 20px;
+    line-height: 20px;
+  }
+
+  .field__input {
     font-size: 20px;
     line-height: 20px;
   }
