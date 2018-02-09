@@ -28,9 +28,7 @@
 
 @include tablet-up {
   .index-promo {
-    display: flex;
-    flex-direction: column;
-    width: 528px;
+    width: 708px;
     background-color: #ffffff;
     color: #111111;
   }
@@ -48,5 +46,11 @@
   .index-promo__button {
     width: 245px;
     height: 52px;
+  }
+}
+
+@include desktop-up {
+  .index-promo {
+    display: flex;
   }
 }

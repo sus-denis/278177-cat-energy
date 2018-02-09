@@ -1,6 +1,5 @@
 .additionals {
-  display: flex;
-  flex-direction: column;
+  width: 320px;
 }
 
 .additionals__title {
@@ -16,8 +15,22 @@
 }
 
 @include tablet-up {
+  .additionals {
+    width: 708px;
+  }
+
   .additionals__title {
     font-size: 36px;
     line-height: 36px;
+  }
+}
+
+@include desktop-up {
+  .additionals {
+    width: 1220px;
+  }
+
+  .additionals__wrapper {
+    display: flex;
   }
 }
