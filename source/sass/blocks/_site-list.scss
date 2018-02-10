@@ -2,6 +2,15 @@
   @include list-reset;
 }
 
+.site-list__item {
+  height: 17px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  border-top: 1px;
+  border-color: #e6e6e6;
+  text-align: center;
+}
+
 .site-list__link {
   font-family: "Oswald", "Arial", sans-serif;
   font-weight: 500;
@@ -24,6 +33,11 @@
   .site-list {
     display: flex;
     justify-content: space-between;
+  }
+
+  .site-list__item {
+    border: none;
+    text-align: left;
   }
 
   .site-list__link {
