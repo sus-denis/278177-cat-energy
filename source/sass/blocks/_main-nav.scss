@@ -3,10 +3,17 @@
 }
 
 .main-nav__toggle {
-  position: absolute;
+  display: block;
+  box-sizing: border-box;
   width: 24px;
-  height: 24px;
-  top: -21px;
+  height: 18px;
+  padding: 0;
+  border: none;
+  outline: none;
+  font-size: 0;
+  background: url("../img/icon-close.svg") 100% 50% no-repeat;
+  position: absolute;
+  top: -42px;
   right: 20px;
 }
 
